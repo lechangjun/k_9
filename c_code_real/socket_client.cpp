@@ -1,5 +1,7 @@
 #include "socket_client.h"
 
+int a ;
+
 int createSocket() {
     int sock;
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
